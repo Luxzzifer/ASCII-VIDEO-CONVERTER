@@ -1,0 +1,19 @@
+# =====================================================
+# ASCII Video Converter - Python Dependencies
+# Install with: pip install -r requirements.txt
+# =====================================================
+
+# --- Core Dependencies (Required) ---
+opencv-python>=4.5.0     # Video capture, frame processing (cv2)
+numpy>=1.21.0            # Vectorized array operations
+Pillow>=9.0.0            # Font rendering & sprite sheet builder (PIL)
+tqdm>=4.60.0             # Progress bar for rendering
+
+# --- Optional: NVIDIA GPU Acceleration (CUDA) ---
+# The script works perfectly on CPU without these.
+# ONLY uncomment ONE line below if you have an NVIDIA GPU
+# AND the CUDA Toolkit installed on your system.
+# If CuPy fails, the script automatically falls back to CPU.
+#
+# cupy-cuda12x[ctk]      # For CUDA 12.x
+# cupy-cuda11x[ctk]      # For CUDA 11.x
