@@ -80,26 +80,13 @@ Original Video Frame             ASCII Art Output
 - **FFmpeg** installed and available on your `PATH`
 - (Optional) **NVIDIA GPU + CUDA** for accelerated rendering — falls back to CPU automatically if unavailable
 
-**Python dependencies:**
-
-```text
-opencv-python
-numpy
-Pillow
-tqdm
-cupy-cudaXXx   # optional, only for GPU acceleration
-```
+**Python dependencies:** listed in [`requirements.txt`](requirements.txt) (CuPy for GPU acceleration is optional and installed separately — see below).
 
 ---
-🛠️ Requirements / Prasyarat
-Python 3.8 or newer
-FFmpeg installed and available on your PATH
-(Optional) NVIDIA GPU + CUDA for accelerated rendering — falls back to CPU automatically if unavailable
 
-Python dependencies: listed in requirements.txt (CuPy for GPU acceleration is optional and installed separately — see below).
+## 📦 Installation / Instalasi
 
-📦 Installation / Instalasi
-bash
+```bash
 # 1. Clone the repository
 git clone https://github.com/your-username/ascii-video-converter.git
 cd ascii-video-converter
@@ -119,12 +106,16 @@ brew install ffmpeg
 
 # Linux (Debian/Ubuntu)
 sudo apt install ffmpeg
+```
+
+---
+
 ## 🚀 Usage / Penggunaan
 
 ### Interactive mode
 
 ```bash
-python main.py
+python ascii_video_converter.py
 ```
 
 You'll be guided through an interactive setup:
@@ -236,5 +227,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">
-    GAK TAU MALES PENGEN JADI PNS
+  Made with ❤️ and a lot of ASCII characters
 </p>
