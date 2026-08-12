@@ -27,7 +27,7 @@
 >
 > [![Demo Video](https://img.youtube.com/vi/FPx-ghLZTbA/0.jpg)](https://www.youtube.com/watch?v=FPx-ghLZTbA)
 >
-> *Replace `YOUR_VIDEO_ID` with your actual YouTube video ID / Ganti `YOUR_VIDEO_ID` dengan ID video YouTube Anda.*
+
 
 ---
 
@@ -167,9 +167,23 @@ Rendering is fully vectorized with NumPy (CPU) or CuPy (GPU) — every character
 
 ```
 ascii-video-converter/
-├── ascii_video_converter.py   # Main script
-├── logs/                      # Auto-generated runtime logs
-└── README.md
+├── cli/
+menu.py
+prompts.py
+├── config/
+constants.py
+gpu.py
+├── converter
+pipeline.py
+├── core/
+fonts.py
+renderer.py
+├── utils/
+ffmpeg.py
+├── LICENSE
+├── README.md
+├── main.py   # Main script
+├── requirements.txt
 ```
 
 ---
@@ -207,8 +221,8 @@ The default character ramp uses extended Latin-1 symbols (`°±¼½¾¡¿`). Mak
 
 ---
 
-## 🤝 EHMMMMMMMMM
-https://saweria.co/MUXOS
+## ☕ Support
+<p align="center"> <a href="https://saweria.co/MUXOS"> <img src="https://img.shields.io/badge/Saweria-Donate-orange?logo=buymeacoffee&logoColor=white" alt="Donate via Saweria"> </a> </p>
 ---
 
 ## 📄 License
