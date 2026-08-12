@@ -131,7 +131,7 @@ You'll be guided through an interactive setup:
 ### CLI / drag-and-drop mode
 
 ```bash
-python ascii_video_converter.py "path/to/your/video.mp4"
+python main.py "path/to/your/video.mp4"
 ```
 
 Drag a video file directly onto the script (Windows) to skip the manual path prompt.
