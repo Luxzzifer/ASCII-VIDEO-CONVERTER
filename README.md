@@ -25,7 +25,7 @@
 
 > **Watch the full demonstration / Tonton video demonstrasi lengkap:**
 >
-> [![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+> [![Demo Video](https://img.youtube.com/vi/FPx-ghLZTbA/0.jpg)](https://www.youtube.com/watch?v=FPx-ghLZTbA)
 >
 > *Replace `YOUR_VIDEO_ID` with your actual YouTube video ID / Ganti `YOUR_VIDEO_ID` dengan ID video YouTube Anda.*
 
@@ -207,17 +207,8 @@ The default character ramp uses extended Latin-1 symbols (`°±¼½¾¡¿`). Mak
 
 ---
 
-## 🤝 Contributing / Kontribusi
-
-Contributions, issues, and feature requests are welcome!
-Kontribusi, laporan bug, dan permintaan fitur sangat diterima!
-
-1. Fork this repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
+## 🤝 EHMMMMMMMMM
+https://saweria.co/MUXOS
 ---
 
 ## 📄 License
@@ -227,5 +218,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">
-  Made with ❤️ and a lot of ASCII characters
+   GAK TAU MALES PENGEN JADI PNS
 </p>
