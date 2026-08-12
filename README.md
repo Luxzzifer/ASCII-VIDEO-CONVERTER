@@ -91,16 +91,21 @@ cupy-cudaXXx   # optional, only for GPU acceleration
 ```
 
 ---
+🛠️ Requirements / Prasyarat
+Python 3.8 or newer
+FFmpeg installed and available on your PATH
+(Optional) NVIDIA GPU + CUDA for accelerated rendering — falls back to CPU automatically if unavailable
 
-## 📦 Installation / Instalasi
+Python dependencies: listed in requirements.txt (CuPy for GPU acceleration is optional and installed separately — see below).
 
-```bash
+📦 Installation / Instalasi
+bash
 # 1. Clone the repository
 git clone https://github.com/your-username/ascii-video-converter.git
 cd ascii-video-converter
 
 # 2. Install Python dependencies
-pip install opencv-python numpy Pillow tqdm
+pip install -r requirements.txt
 
 # 3. (Optional) Install CuPy for GPU acceleration — match your CUDA version
 pip install cupy-cuda12x
@@ -114,16 +119,12 @@ brew install ffmpeg
 
 # Linux (Debian/Ubuntu)
 sudo apt install ffmpeg
-```
-
----
-
 ## 🚀 Usage / Penggunaan
 
 ### Interactive mode
 
 ```bash
-python ascii_video_converter.py
+python main.py
 ```
 
 You'll be guided through an interactive setup:
